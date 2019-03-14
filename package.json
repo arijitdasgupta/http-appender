@@ -1,0 +1,28 @@
+{
+  "name": "http-appender",
+  "version": "1.0.0",
+  "description": "A webapp that dumps incoming data into a file",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arijitdasgupta/http-appender.git"
+  },
+  "keywords": [
+    "node",
+    "http",
+    "logging"
+  ],
+  "author": "arijit.rivalslayer@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/arijitdasgupta/http-appender/issues"
+  },
+  "homepage": "https://github.com/arijitdasgupta/http-appender#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
