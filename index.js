@@ -19,8 +19,10 @@ application.use(bodyParser.raw({
 }));
 
 application.post('/', (req, res) => {
-  fs.appendFile(filepath, req.body, () => {
-    res.send('OK');
+  fs.appendFile(filepath, req.body, () => { //TODO: Bad nesting
+    fs.appendFile(filepath, '\n', () => {
+      res.send('OK');
+    })
   });
 });
 
